@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
+        ResizeMode="NoResize"
         Title="MainWindow"
         Height="145"
         Width="220">
@@ -15,6 +16,7 @@
                 Click="Button_Click"
                 Background="Moccasin"
                 Grid.ColumnSpan="2"
+             
                 Margin="26,26,30.2,30.4">Узнать свое разрешение
             <Button.Template>
                 <ControlTemplate TargetType="Button">
